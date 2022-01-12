@@ -1,0 +1,169 @@
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  background-color: #fcfcfc2d;
+}
+
+nav {
+  display: flex;
+  padding: 2rem 0;
+  background: #111;
+}
+
+.chat-area, .home {
+  margin-top: 60px;
+}
+
+.chat-area {
+  content: center;
+  padding: 20px;
+  height: 50%;
+  width: 100%;
+  overflow-y: scroll;
+
+}
+
+.chat-area .chat-bubble {
+  background-color: #bbdefb;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 300px;
+  word-wrap: break-word;
+}
+
+.chat-bubble .chat-time {
+  font-size: 12px;
+  color: #ff0b0b;
+  text-align: right;
+}
+
+
+.chat-area .chat-bubble.current-user {
+  margin-left: auto;
+  background-color: #02da09ad;
+}
+
+.form-control {
+    width: 100%;
+    background: whitesmoke;
+    border: none;
+    padding: 14px;
+    border-radius: 6px;
+    color: rgb(65, 65, 65);
+    margin-bottom: 18px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.btn-submit {
+  background-color: #75ff7c;
+  color: white;
+}
+
+.image-chat{
+  width: 40px;
+  border-radius: 15px;
+}
+.boton-crear {
+  margin-right: 12px;
+  outline: none;
+  padding: 9px;
+  border: none; 
+  text-decoration: none;
+  background: #0d386d;
+  color: white;
+  border-radius: 6px;
+}
+.boton-login {
+  margin-right: 12px;
+  margin-bottom: 10pxs;
+  outline: none;
+  padding: 9px;
+  border: none; 
+  text-decoration: none;
+  background: #0a7934;
+  color: white;
+  border-radius: 6px;
+}
+
+.boton-cerrar {
+  outline: none;
+  padding: 9px;
+  border: none; 
+  background: #bb280f;
+  color: white;
+  border-radius: 6px;
+}
+
+.chat{  
+    margin: 20px;
+    background: rgb(170, 170, 170);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.home-app{
+  height: 50vh;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .container-input {
+    padding-bottom: 40px;
+  }
+
+
+
+  .form-control {
+    width: 100%;
+  }
+
+  .chat-area .chat-bubble {
+    max-width: 350px;
+  }
+
+  .formContainer{
+    height: 50vh;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .login-user{
+    width: 100%;
+    background: no-repeat;
+    border: none;
+    padding: 14px;
+    border-radius: 6px;
+    color: white;
+    margin-bottom: 18px;
+  }
+  
+.boton-send{
+    display: inline-block;
+    background: #4bcc00;
+    color: white;
+    border-radius: 4px;
+    font-weight: 700;
+    padding: 0.75rem 1.5rem;
+    
+}
+
+ 
+  
